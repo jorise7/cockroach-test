@@ -9,6 +9,14 @@
   },
 
   "data": {
+    "temp": {
+      "driver": "postgres", "cache": "default",
+      "config": {
+        "schema": "public", "url": "postgresql://test:test2017@localhost:5432/test?sslmode=disable"
+      }
+    },
+
+
     "db": {
       "driver": "cockroach", "cache": "default",
       "config": {
