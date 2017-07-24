@@ -1,0 +1,56 @@
+{
+  "id":     "test",
+  "debug":  true,
+
+  "cache": {
+    "default": {
+      "driver": "default", "config": {}
+    }
+  },
+
+  "data": {
+    "db": {
+      "driver": "cockroach", "cache": "default",
+      "config": {
+        "schema": "test", "url": "postgresql://root@localhost:26257?sslmode=disable"
+      }
+    }
+  },
+
+
+  "queue": {
+    "default": {
+      "driver": "default", "config": { }
+    }
+  },
+
+  "event": {
+    "driver": "default", "prefix": "", "config": { }
+  },
+
+  "plan": {
+    "driver": "default", "config": {}
+  },
+  "task": {
+    "driver": "default", "config": {}
+  },
+  "session": {
+    "driver": "default", "config": {}
+  },
+  "logger": {
+    "driver": "default", "config": { }
+  },
+  "http": {
+    "driver": "default", "config": {}
+  },
+  "view": {
+    "driver": "default", "config": {}
+  },
+
+
+  "setting": {
+  },
+
+
+  "test": ""
+}
